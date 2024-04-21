@@ -1,0 +1,12 @@
+Sanskrit
+French
+English
+Introduction
+Udaharanani	->	Akharakramena, Avyakritani
+TadditaPratyayah->	Sanubandha, Niranubandha, Pratyayarthah
+Prakaranani
+Sutrani
+	Sutrani1->	Aksharakramena, Ashtadhyayi Kramena
+	Sutrani2->	Aksharakramena, Ashtadhyayi Kramena
+Vartikani	->	Aksharakramena, Samkhyakramena
+Paribhashikapadani

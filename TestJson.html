@@ -1,0 +1,36 @@
+<html>
+<head>
+<script>
+async function getUsers() {
+//    let url = 'users.json';
+	    let url = '0sk.json';
+    try {
+        let res = await fetch(url);
+        return await res.json();
+    } catch (error) {
+        console.log(error);
+    }
+}
+async function renderUsers() {
+    let users = await getUsers();
+    let html = '';
+	alert(users.length);
+	console.log(users);
+	//alert(users[0].SKNO);
+	//document.getElementById("id1").innerHTML = users[0].SKNO+"<br>"+users[0].Sutra+"<br>"+users[0].ASNO+"<br>"+users[0].Comm;
+	//users.foreach(myfunction);
+	for(i=0;i<=users.length-1;i++)
+	{
+		html += "<p>"+users[i].SKNO+"<br>"+users[i].Sutra+"<br>"+users[i].ASNO+"<br>"+users[i].Comm+"</p>";
+	}
+	document.getElementById("id1").innerHTML = html;
+}
+renderUsers();
+</script>
+</head>
+<body>
+<h1>Hello</h1>
+<div id="id1">
+</div>
+</body>
+</html>
