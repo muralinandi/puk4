@@ -1,7 +1,7 @@
 <?php
 echo "<!DOCTYPE html>";
 ?>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
